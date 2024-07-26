@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            text-align: center;
+        }
+        tr:nth-child(even){
+            background-color: cyan;
+        }
+        tr:nth-child(odd){
+            background-color: lightgreen;
+        }
+        form{
+            text-align: justify;
+        }
+    </style>
+</head>
+
+<body>
+    <table border="2px">
+        <tr>
+            <th colspan="6">Time Table</th>
+        </tr>
+        <tr>
+            <th rowspan="6">Hours</th>
+            <th>Mon</th>
+            <th>Tue</th>
+            <th>Wed</th>
+            <th>Thu</th>
+            <th>Fri</th>
+        </tr>
+        <tr>
+            <th>Maths</th>
+            <th>Science</th>
+            <th>Maths</th>
+            <th>Science</th>
+            <th>Arts</th>
+        </tr>
+        <tr>
+            <th>Maths</th>
+            <th>Science</th>
+            <th>Maths</th>
+            <th>Science</th>
+            <th>Arts</th>
+        </tr>
+        <tr>
+            <th colspan="5">Lunch</th>
+        </tr>
+        <tr>
+            <th>Maths</th>
+            <th>Science</th>
+            <th>Maths</th>
+            <th colspan="2" rowspan="2">Project</th>
+        </tr>
+        <tr>
+            <th>Maths</th>
+            <th>Science</th>
+            <th>Maths</th>
+        </tr>
+    </table>
+    <h2>Novell Services Login</h2>
+    <form>
+        <label for="">Username:</label>
+        <input type="text"><br><br>
+
+        <label for="">Password:</label>
+        <input type="password"><br><br>
+
+        <label for="">City of Employment:</label>
+        <input type="text"><br><br>
+
+        <label for="">Web Server:</label>
+        <select name="" id="">
+            <optgroup label="integer">
+                <option value="">one</option>
+                <option value="">two</option>
+            </optgroup>
+            <optgroup label="odd">
+                <option value="">three</option>
+                <option value="">five</option>
+            </optgroup>
+        </select> <br><br>
+
+        <label for="role">Please Specify<br> your role:</label><br>
+        <input type="radio" name="role" id="Admin">
+        <label for="Admin">Admin</label>
+        <input type="radio" name="role" id="engineer">
+        <label for="engineer">Engineer</label>
+        <input type="radio" name="role" id="manager">
+        <label for="manager">Manager</label>
+        <input type="radio" name="role" id="guest">
+        <label for="guest">Guest</label><br><br>
+
+        <label for="">Single Sign-on<br> to the following:</label><br>
+        <input type="checkbox">
+        <label for="">Mad</label>
+        <input type="checkbox">
+        <label for="">Payroll</label>
+        <input type="checkbox">
+        <label for="">Self-service</label><br><br>
+
+        <label for=""></label>
+        <input type="button" value="Login">
+
+        <label for=""></label>
+        <input type="reset">
+    </form>
+</body>
+
+</html>
